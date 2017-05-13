@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">AliotHMI</string>
+
+    <!-- Strings related to home page -->
+    <string name="home_lb_machine_status">Current Machine Status</string>
+    <string name="home_lb_reason_code">Current Reason Code</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_server_type">Server Type</string>
+    <string name="pref_default_server_type">opc_ua</string>
+    <string-array name="pref_server_type_list_titles">
+        <item>Modbus</item>
+        <item>OPC UA</item>
+        <item>OPC DA</item>
+    </string-array>
+    <string-array name="pref_server_type_list_values">
+        <item>modbus</item>
+        <item>opc_ua</item>
+        <item>opc_da</item>
+    </string-array>
+
+    <string name="pref_title_machine_status_type">Machine Status Type</string>
+    <string name="pref_default_machine_status_type">machine_status</string>
+    <string-array name="pref_machine_status_type_list_titles">
+        <item>Machine Status(Boolean)</item>
+        <item>Job Count(float)</item>
+        <item>Job Value(float)</item>
+    </string-array>
+    <string-array name="pref_machine_status_type_list_values">
+        <item>machine_status</item>
+        <item>job_count</item>
+        <item>job_value</item>
+    </string-array>
+    <string name="pref_title_idle_popup_time">Idle Popup Time(in Sec)</string>
+    <string name="pref_summary_idle_popup_time">Idle time in seconds after which popup should come.</string>
+    <string name="pref_default_idle_popup_time">240</string>
+
+    <!-- Example opc ua setting -->
+    <string name="pref_header_opc_ua">OPC UA Server</string>
+
+    <string name="pref_title_opc_ua_server_url">OPC UA Server Url</string>
+    <string name="pref_default_opc_ua_server_url"></string>
+
+    <string name="pref_title_opc_ua__secure_settings">Secure</string>
+    <string name="pref_default_opc_ua_secure_settings">false</string>
+    <string name="pref_description_opc_ua_secure_settings">
+        Enable this setting if you are using secured OPC UA server
+    </string>
+
+    <string name="pref_title_opc_ua_machine_status_tag">Machine Status Tag</string>
+    <string name="pref_default_opc_ua_machine_status_tag"></string>
+
+    <string name="pref_title_opc_ua_reason_code_tag">Reason Code Tag</string>
+    <string name="pref_default_opc_ua_reason_code_tag"></string>
+
+    <!-- Example opc da setting -->
+    <string name="pref_header_opc_da">OPC DA Server</string>
+
+    <string name="pref_title_opc_da_server_url">OPC DA Server Url</string>
+    <string name="pref_default_opc_da_server_url"></string>
+
+    <string name="pref_title_opc_da__secure_settings">Secure</string>
+    <string name="pref_default_opc_da_secure_settings">false</string>
+    <string name="pref_description_opc_da_secure_settings">
+        Enable this setting if you are using secured OPC DA server
+    </string>
+
+    <string name="pref_title_opc_da_machine_status_tag">Machine Status Tag</string>
+    <string name="pref_default_opc_da_machine_status_tag"></string>
+
+    <string name="pref_title_opc_da_reason_code_tag">Reason Code Tag</string>
+    <string name="pref_default_opc_da_reason_code_tag"></string>
+
+    <!-- Example modbus setting -->
+    <string name="pref_header_modbus">Modbus Server</string>
+
+    <string name="pref_title_modbus_server_url">Modbus Server Url</string>
+    <string name="pref_default_modbus_server_url"></string>
+
+    <string name="pref_title_modbus_machine_status_tag">Machine Status Tag</string>
+    <string name="pref_default_modbus_machine_status_tag"></string>
+
+    <string name="pref_title_modbus_reason_code_tag">Reason Code Tag</string>
+    <string name="pref_default_modbus_reason_code_tag"></string>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>1 sec</item>
+        <item>5 sec</item>
+        <item>10 sec</item>
+        <item>30 sec</item>
+        <item>1 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>1000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>300000</item>
+        <item>600000</item>
+    </string-array>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>

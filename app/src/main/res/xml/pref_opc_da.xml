@@ -1,0 +1,41 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <EditTextPreference
+        android:capitalize="none"
+        android:defaultValue="@string/pref_default_opc_da_server_url"
+        android:inputType="text"
+        android:key="opc_da_server_url"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_opc_da_server_url" />
+
+    <SwitchPreference
+        android:defaultValue="@string/pref_default_opc_da_secure_settings"
+        android:key="opc_da_secure_switch"
+        android:summary="@string/pref_description_opc_da_secure_settings"
+        android:title="@string/pref_title_opc_da__secure_settings" />
+
+    <EditTextPreference
+        android:capitalize="none"
+        android:defaultValue="@string/pref_default_opc_da_machine_status_tag"
+        android:inputType="text"
+        android:key="opc_da_machine_status_tag"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_opc_da_machine_status_tag" />
+
+    <EditTextPreference
+        android:capitalize="none"
+        android:defaultValue="@string/pref_default_opc_da_reason_code_tag"
+        android:inputType="text"
+        android:key="opc_da_reason_code_tag"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_opc_da_reason_code_tag" />
+
+</PreferenceScreen>
